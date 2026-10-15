@@ -1,0 +1,432 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T22:00:00Z",
+  "title": "Design System: Dorna Pourang",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "canonical": "oklch(97.9% 0.002 248)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#232425",
+          "#3f4041",
+          "#5d5e5e",
+          "#7c7d7e",
+          "#9d9e9f",
+          "#c6c7c8",
+          "#edeeef"
+        ]
+      },
+      "paper-deep": {
+        "role": "neutral",
+        "displayName": "Shaded Paper",
+        "canonical": "oklch(95.4% 0.003 248)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232426",
+          "#3e4041",
+          "#5c5e5f",
+          "#7c7d7f",
+          "#9d9fa0",
+          "#c5c7c9",
+          "#edeff1"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Navy Ink",
+        "canonical": "oklch(23.9% 0.026 249)",
+        "tonalRamp": [
+          "#040c16",
+          "#1a2530",
+          "#35414d",
+          "#525f6c",
+          "#727f8d",
+          "#92a0af",
+          "#bbc9d8",
+          "#e1f0ff"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "oklch(43.3% 0.026 251)",
+        "tonalRamp": [
+          "#040c16",
+          "#1a2531",
+          "#35414d",
+          "#535f6c",
+          "#727f8d",
+          "#93a0af",
+          "#bbc9d8",
+          "#e2f0ff"
+        ]
+      },
+      "ink-faint": {
+        "role": "neutral",
+        "displayName": "Pewter",
+        "canonical": "oklch(49.8% 0.022 248)",
+        "tonalRamp": [
+          "#050c14",
+          "#1c252e",
+          "#37414b",
+          "#545f6a",
+          "#737f8a",
+          "#94a0ac",
+          "#bdc9d5",
+          "#e3f0fd"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(89.6% 0.008 254)",
+        "tonalRamp": [
+          "#090b0f",
+          "#212428",
+          "#3d4044",
+          "#5a5e62",
+          "#7a7e82",
+          "#9b9fa3",
+          "#c4c8cd",
+          "#ebeff4"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Deep Petrol",
+        "canonical": "oklch(42.1% 0.064 222)",
+        "tonalRamp": [
+          "#000f1e",
+          "#002a3a",
+          "#0a4758",
+          "#2f6678",
+          "#508699",
+          "#71a8bb",
+          "#b2cdd6",
+          "#e5f1f5"
+        ]
+      },
+      "accent-deep": {
+        "role": "primary",
+        "displayName": "Midnight Petrol",
+        "canonical": "oklch(34.1% 0.052 222)",
+        "tonalRamp": [
+          "#000f1a",
+          "#002936",
+          "#1b4653",
+          "#3b6473",
+          "#5a8594",
+          "#7ba6b6",
+          "#b6ccd4",
+          "#e7f0f4"
+        ]
+      },
+      "on-ink": {
+        "role": "neutral",
+        "displayName": "On-Ink White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#3b3b3b",
+          "#555555",
+          "#717171",
+          "#8e8e8e",
+          "#adadad",
+          "#d4d4d4",
+          "#ffffff"
+        ]
+      },
+      "on-ink-soft": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "oklch(88.8% 0.009 243)",
+        "tonalRamp": [
+          "#080c0f",
+          "#202528",
+          "#3c4044",
+          "#595e63",
+          "#797e83",
+          "#9a9fa4",
+          "#c2c8cd",
+          "#e9eff4"
+        ]
+      },
+      "on-ink-faint": {
+        "role": "neutral",
+        "displayName": "Fog",
+        "canonical": "oklch(77.5% 0.016 248)",
+        "tonalRamp": [
+          "#060c12",
+          "#1e252c",
+          "#394148",
+          "#575f67",
+          "#767e87",
+          "#97a0a8",
+          "#bfc8d2",
+          "#e6f0f9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The hero greeting and name only; used once per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles."
+      },
+      "statement": {
+        "displayName": "Statement",
+        "purpose": "The email address in the contact band."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "The name in the sticky header."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Publication, article, press, feature and education titles."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Organization names in the organizations strip."
+      },
+      "citation": {
+        "displayName": "Citation",
+        "purpose": "Italic venue line under each publication."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Petrol role line under the hero name."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Bio copy, max 66ch."
+      },
+      "body-sm": {
+        "displayName": "Body Small",
+        "purpose": "Author lists and secondary detail, max 72ch."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "Header section links and the Contact pill."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Tabular meta column (years, outlets), feature sources, footer."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Primary button and companion text link."
+      }
+    },
+    "shadows": [
+      {
+        "name": "action-rest",
+        "value": "0 1px 2px rgba(19, 62, 75, 0.18), 0 6px 18px -6px rgba(19, 62, 75, 0.35)",
+        "purpose": "Primary button at rest; the only resting shadow on the page."
+      },
+      {
+        "name": "action-lift",
+        "value": "0 2px 4px rgba(19, 62, 75, 0.2), 0 10px 24px -8px rgba(19, 62, 75, 0.45)",
+        "purpose": "Primary button on hover, with a 1px rise."
+      },
+      {
+        "name": "photo-lift",
+        "value": "0 18px 40px -22px rgba(21, 32, 43, 0.45)",
+        "purpose": "Feature photograph on hover, with a 3px rise."
+      },
+      {
+        "name": "header-scrolled",
+        "value": "background: rgba(247, 248, 249, 0.92); backdrop-filter: saturate(140%) blur(10px); border-bottom: 1px solid #d9dde2",
+        "purpose": "Header material after 8px of scroll; transparent before."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-house",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Exponential ease-out used for every transition and the hero entrance."
+      },
+      {
+        "name": "duration-state",
+        "value": "0.2s",
+        "purpose": "Link, button and caption color and lift changes."
+      },
+      {
+        "name": "duration-icon",
+        "value": "0.25s",
+        "purpose": "External-link arrow nudge and fade-in."
+      },
+      {
+        "name": "duration-header",
+        "value": "0.3s",
+        "purpose": "Header backdrop and hairline appearing on scroll."
+      },
+      {
+        "name": "duration-photo",
+        "value": "0.6s",
+        "purpose": "Feature photograph hover lift."
+      },
+      {
+        "name": "hero-rise",
+        "value": "translateY(14px) to 0 over 0.9s, 60ms stagger",
+        "purpose": "Hero copy entrance from an already-visible state; reduced-motion users get none."
+      },
+      {
+        "name": "hero-settle",
+        "value": "scale(1.02) to 1 over 1.1s, 80ms delay",
+        "purpose": "Portrait entrance paired with hero-rise."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "960px",
+        "purpose": "Header wraps with scrolling link row; dossier titles move above their lists; hero portrait column narrows."
+      },
+      {
+        "name": "phone",
+        "value": "720px",
+        "purpose": "Header 56px; body 1rem; hero stacks with a 180px portrait above the name; entries and features go single column."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single filled petrol pill; the page's one primary action (email).",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Email me</a>",
+      "css": ":host{--paper:#f7f8f9;--paper-deep:#eef0f2;--ink:#15202b;--ink-soft:#46525f;--ink-faint:#59646f;--rule:#d9dde2;--accent:#1d5566;--accent-deep:#133e4b;--serif:'Source Serif 4',Georgia,'Times New Roman',serif;--sans:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-btn-primary{display:inline-flex;align-items:center;height:48px;padding:0 26px;background:var(--accent);color:#fff;font-family:var(--sans);font-weight:600;font-size:1rem;text-decoration:none;border-radius:999px;box-shadow:0 1px 2px rgba(19,62,75,0.18),0 6px 18px -6px rgba(19,62,75,0.35);transition:background-color 0.2s var(--ease),transform 0.2s var(--ease),box-shadow 0.2s var(--ease);} .ds-btn-primary:hover{background:var(--accent-deep);transform:translateY(-1px);box-shadow:0 2px 4px rgba(19,62,75,0.2),0 10px 24px -8px rgba(19,62,75,0.45);} .ds-btn-primary:active{transform:translateY(0);} .ds-btn-primary:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Quiet petrol companion to the primary button.",
+      "html": "<a class=\"ds-text-link\" href=\"#\">View publications</a>",
+      "css": ":host{--paper:#f7f8f9;--paper-deep:#eef0f2;--ink:#15202b;--ink-soft:#46525f;--ink-faint:#59646f;--rule:#d9dde2;--accent:#1d5566;--accent-deep:#133e4b;--serif:'Source Serif 4',Georgia,'Times New Roman',serif;--sans:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-text-link{font-family:var(--sans);font-weight:600;font-size:1rem;color:var(--accent);text-decoration-thickness:1px;text-underline-offset:0.22em;transition:color 0.2s var(--ease);} .ds-text-link:hover{color:var(--accent-deep);} .ds-text-link:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px;}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky header: serif wordmark, grotesk section links with an active underline, and the outlined Contact pill.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-wordmark\" href=\"#\">Dorna Pourang</a><nav><ul><li><a href=\"#\" aria-current=\"true\">Publications</a></li><li><a href=\"#\">Features</a></li><li><a href=\"#\">Writing &amp; Press</a></li><li><a href=\"#\">Education</a></li><li><a class=\"ds-nav-cta\" href=\"#\">Contact</a></li></ul></nav></header>",
+      "css": ":host{--paper:#f7f8f9;--paper-deep:#eef0f2;--ink:#15202b;--ink-soft:#46525f;--ink-faint:#59646f;--rule:#d9dde2;--accent:#1d5566;--accent-deep:#133e4b;--serif:'Source Serif 4',Georgia,'Times New Roman',serif;--sans:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-header{display:flex;align-items:center;justify-content:space-between;gap:24px;height:64px;padding:0 24px;background:rgba(247,248,249,0.92);border-bottom:1px solid var(--rule);} .ds-wordmark{font-family:var(--serif);font-size:1.25rem;font-weight:600;letter-spacing:-0.01em;color:var(--ink);text-decoration:none;white-space:nowrap;} .ds-header ul{display:flex;gap:24px;list-style:none;margin:0;padding:0;align-items:center;} .ds-header nav a{font-family:var(--sans);font-size:0.9375rem;font-weight:500;color:var(--ink-soft);text-decoration:none;padding:6px 0;position:relative;transition:color 0.2s var(--ease);} .ds-header nav a:hover,.ds-header nav a[aria-current]{color:var(--ink);} .ds-header nav a[aria-current]::after{content:'';position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;} .ds-header nav a.ds-nav-cta{color:var(--accent);border:1px solid currentColor;border-radius:999px;padding:6px 16px;} .ds-header nav a.ds-nav-cta:hover{background:var(--accent);color:#fff;} .ds-header a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px;}"
+    },
+    {
+      "name": "Publication Entry",
+      "kind": "custom",
+      "refersTo": "dossier-entry",
+      "description": "Signature dossier row: tabular year column, serif title, author list with her name emphasized, italic venue.",
+      "html": "<ol class=\"ds-entries\"><li class=\"ds-entry\"><span class=\"ds-meta\">2023</span><div><p class=\"ds-title\">AFM24 in combination with autologous NK cells (SNK01) in patients with advanced solid tumors</p><p class=\"ds-authors\">El-Khoueiry A, Olson D, Thomas J, <strong>Pourang D</strong>, et al.</p><p class=\"ds-venue\">ASCO Breakthrough (2023)</p></div></li><li class=\"ds-entry\"><span class=\"ds-meta\">2022</span><div><p class=\"ds-title\">The combination of CD16A/EGFR innate cell engager, AFM24, with SNK01 autologous natural killer cells</p><p class=\"ds-authors\">El-Khoueiry A, Song P, Rubel J, <strong>Pourang D</strong>, et al.</p><p class=\"ds-venue\">ASCO Annual Meeting (2022)</p></div></li></ol>",
+      "css": ":host{--paper:#f7f8f9;--paper-deep:#eef0f2;--ink:#15202b;--ink-soft:#46525f;--ink-faint:#59646f;--rule:#d9dde2;--accent:#1d5566;--accent-deep:#133e4b;--serif:'Source Serif 4',Georgia,'Times New Roman',serif;--sans:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-entries{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink);} .ds-entry{display:grid;grid-template-columns:11.5rem minmax(0,1fr);gap:6px 32px;padding:22px 0 24px;border-bottom:1px solid var(--rule);} .ds-meta{font-family:var(--sans);font-size:0.875rem;font-weight:600;color:var(--ink-faint);font-variant-numeric:tabular-nums lining-nums;padding-top:0.2em;} .ds-title{margin:0;font-family:var(--serif);font-size:1.1875rem;line-height:1.4;font-weight:500;color:var(--ink);max-width:62ch;} .ds-authors{margin:8px 0 0;font-family:var(--sans);font-size:0.9375rem;line-height:1.55;color:var(--ink-soft);max-width:72ch;} .ds-authors strong{color:var(--ink);font-weight:650;} .ds-venue{margin:4px 0 0;font-family:var(--serif);font-style:italic;font-size:0.9375rem;color:var(--ink-soft);}"
+    },
+    {
+      "name": "Link Entry",
+      "kind": "custom",
+      "refersTo": "dossier-entry",
+      "description": "Dossier row for writing and press: outlet in the meta column, the whole serif title as an external link.",
+      "html": "<ul class=\"ds-entries\"><li class=\"ds-entry\"><span class=\"ds-meta\">The Independent</span><a href=\"#\">How pro surfer Koa Smith overcame depression and trauma with psychedelic mushrooms<svg class=\"ds-ext\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M5 11 11 5M6 5h5v5\"/></svg></a></li><li class=\"ds-entry\"><span class=\"ds-meta\">MUD\\WTR</span><a href=\"#\">Healing Traumatic Brain Injuries with Psychedelics<svg class=\"ds-ext\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M5 11 11 5M6 5h5v5\"/></svg></a></li></ul>",
+      "css": ":host{--paper:#f7f8f9;--paper-deep:#eef0f2;--ink:#15202b;--ink-soft:#46525f;--ink-faint:#59646f;--rule:#d9dde2;--accent:#1d5566;--accent-deep:#133e4b;--serif:'Source Serif 4',Georgia,'Times New Roman',serif;--sans:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-ext{width:0.8em;height:0.8em;margin-left:0.3em;vertical-align:-0.02em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;opacity:0.55;transition:transform 0.25s var(--ease),opacity 0.25s var(--ease);} a:hover .ds-ext{transform:translate(2px,-2px);opacity:1;} .ds-entries{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink);} .ds-entry{display:grid;grid-template-columns:11.5rem minmax(0,1fr);gap:6px 32px;padding:22px 0 24px;border-bottom:1px solid var(--rule);} .ds-meta{font-family:var(--sans);font-size:0.875rem;font-weight:600;color:var(--ink-faint);padding-top:0.2em;} .ds-entry a{font-family:var(--serif);font-size:1.1875rem;line-height:1.4;font-weight:500;color:var(--ink);text-decoration:none;max-width:62ch;text-underline-offset:0.22em;text-decoration-thickness:1px;transition:color 0.2s var(--ease);} .ds-entry a:hover{color:var(--accent);text-decoration:underline;text-decoration-color:rgba(29,85,102,0.45);} .ds-entry a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px;}"
+    },
+    {
+      "name": "Organizations Strip",
+      "kind": "custom",
+      "refersTo": "org-strip",
+      "description": "Full-bleed shaded band of previous organizations in serif, under a small grotesk label.",
+      "html": "<section class=\"ds-orgs\"><h2 class=\"ds-orgs-title\">Previous organizations</h2><ul><li>Astellas Pharma</li><li>Agensys</li><li>Nuvalent Biotech</li><li>Lykos Therapeutics</li><li>NKGen Biotech</li><li>Biosplice</li><li>Journey Colab</li></ul></section>",
+      "css": ":host{--paper:#f7f8f9;--paper-deep:#eef0f2;--ink:#15202b;--ink-soft:#46525f;--ink-faint:#59646f;--rule:#d9dde2;--accent:#1d5566;--accent-deep:#133e4b;--serif:'Source Serif 4',Georgia,'Times New Roman',serif;--sans:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-orgs{display:flex;flex-direction:column;gap:8px;padding:22px 24px 24px;background:var(--paper-deep);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);} .ds-orgs-title{margin:0;font-family:var(--sans);font-size:0.9375rem;font-weight:600;color:var(--ink-faint);} .ds-orgs ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 26px;} .ds-orgs li{font-family:var(--serif);font-size:1.125rem;font-weight:500;color:var(--ink);white-space:nowrap;}"
+    },
+    {
+      "name": "Feature Card",
+      "kind": "card",
+      "refersTo": "feature-image",
+      "description": "Square-cornered 3:2 photograph with serif caption and source label; lifts only on hover.",
+      "html": "<a class=\"ds-feature\" href=\"#\"><span class=\"ds-feature-img\" role=\"img\" aria-label=\"Event photograph\"></span><span class=\"ds-feature-caption\">Psychedelics Panel at LA Tech Week 2022<svg class=\"ds-ext\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M5 11 11 5M6 5h5v5\"/></svg></span><span class=\"ds-feature-source\">The Argonaut</span></a>",
+      "css": ":host{--paper:#f7f8f9;--paper-deep:#eef0f2;--ink:#15202b;--ink-soft:#46525f;--ink-faint:#59646f;--rule:#d9dde2;--accent:#1d5566;--accent-deep:#133e4b;--serif:'Source Serif 4',Georgia,'Times New Roman',serif;--sans:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-ext{width:0.8em;height:0.8em;margin-left:0.3em;vertical-align:-0.02em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;opacity:0.55;transition:transform 0.25s var(--ease),opacity 0.25s var(--ease);} a:hover .ds-ext{transform:translate(2px,-2px);opacity:1;} .ds-feature{display:block;max-width:420px;text-decoration:none;color:var(--ink);} .ds-feature-img{display:block;width:100%;aspect-ratio:3/2;background:var(--paper-deep);border-radius:0;transition:transform 0.6s var(--ease),box-shadow 0.6s var(--ease);} .ds-feature:hover .ds-feature-img{transform:translateY(-3px);box-shadow:0 18px 40px -22px rgba(21,32,43,0.45);} .ds-feature-caption{display:block;margin-top:18px;font-family:var(--serif);font-size:1.1875rem;line-height:1.4;font-weight:500;max-width:48ch;transition:color 0.2s var(--ease);} .ds-feature:hover .ds-feature-caption{color:var(--accent);} .ds-feature-source{display:block;margin-top:6px;font-family:var(--sans);font-size:0.875rem;font-weight:600;color:var(--ink-faint);} .ds-feature:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}"
+    },
+    {
+      "name": "Contact Band",
+      "kind": "custom",
+      "refersTo": "contact-band",
+      "description": "The page's single inversion: ink ground, headline and the email address in large serif.",
+      "html": "<section class=\"ds-contact\"><h2>Contact me</h2><a class=\"ds-contact-email\" href=\"#\">dpourang@mindrisemedica.com</a></section>",
+      "css": ":host{--paper:#f7f8f9;--paper-deep:#eef0f2;--ink:#15202b;--ink-soft:#46525f;--ink-faint:#59646f;--rule:#d9dde2;--accent:#1d5566;--accent-deep:#133e4b;--serif:'Source Serif 4',Georgia,'Times New Roman',serif;--sans:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-contact{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:24px 48px;padding:72px 32px;background:var(--ink);color:#fff;} .ds-contact h2{margin:0;font-family:var(--serif);font-weight:500;font-size:clamp(1.875rem,3vw,2.5rem);line-height:1.1;letter-spacing:-0.02em;color:#fff;} .ds-contact-email{font-family:var(--serif);font-size:clamp(1.375rem,3.4vw,2.5rem);font-weight:500;letter-spacing:-0.015em;color:#fff;text-decoration:underline;text-decoration-color:rgba(255,255,255,0.35);text-underline-offset:0.2em;overflow-wrap:anywhere;transition:text-decoration-color 0.2s var(--ease);} .ds-contact-email:hover{text-decoration-color:#fff;} .ds-contact-email:focus-visible{outline:2px solid #fff;outline-offset:3px;border-radius:2px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Executive Dossier",
+    "overview": "The site reads like a well-kept dossier on a senior operator: a cool near-white sheet, deep navy-charcoal ink, and a single petrol accent that only ever means \"act here\" or \"go there\". The first viewport is the cover page (name, role, bio, portrait, one email action); everything below it is the record, filed as ruled lists with a narrow tabular column for year or outlet and a wide column for the title. Nothing is decorated for its own sake. Credibility comes from order, generous measure, and the weight of the record itself.\n\nTwo typefaces carry the whole system. Source Serif 4 names things: the person, the section titles, every publication, article, organization and feature title, and the email address at the close. Hanken Grotesk does everything else: describing, labelling, navigating. Density is calm and editorial rather than compact; sections breathe with 64 to 112px of space above them, and list rows are separated by hairlines rather than boxes.\n\nThe page refuses the biotech-corporate template (stock lab imagery, molecule graphics, metric tiles) and the psychedelic-wellness template (gradients, saturated or trippy color). It also does not echo the previous Squarespace look (all caps, condensed display type, stark black and white). The only inversion is the closing contact band and footer, set on solid ink.",
+    "keyCharacteristics": [
+      "Cool paper ground, navy-charcoal ink, one deep petrol accent.",
+      "Serif for names and titles, grotesk for description and labels; no uppercase styling anywhere.",
+      "Ruled dossier lists: heading column left, record column right, tabular meta column inside each row.",
+      "Flat surfaces, hairline rules, square-cornered photography, pill-shaped actions.",
+      "One dark band at the end of the page for the email address.",
+      "Motion is quiet: a single hero entrance, a scroll-aware header, small hover lifts."
+    ],
+    "rules": [
+      {
+        "name": "The One Petrol Rule",
+        "body": "Petrol is reserved for things a visitor can act on (links, the button, the Contact pill, focus) plus the single role line under the name. No petrol backgrounds, panels, icons or decorative strokes. If it is petrol and it is not clickable, it had better be the role line.",
+        "section": "colors"
+      },
+      {
+        "name": "The Single Inversion Rule",
+        "body": "Ink becomes a ground exactly once, at the bottom of the page, for the contact band and footer. Everything above it sits on paper.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Serif names things; grotesk describes and labels them. A title, a name, an organization or an address is serif. Dates, outlets, authors, navigation and buttons are grotesk.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sentence Case Rule",
+        "body": "No uppercase transforms, no letterspaced caps, no condensed display type. Labels are distinguished by weight and color, not case.",
+        "section": "typography"
+      },
+      {
+        "name": "The Dossier Rule",
+        "body": "Records are filed, not carded. Every list opens with a 1px ink rule, separates rows with 1px Hairline rules, and keeps a narrow left meta column in Label type. A new record type (talks, roles, patents) gets the same treatment.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Paper Rule",
+        "body": "Nothing on paper casts a shadow at rest except the one filled button. Lists, strips, photographs and headings stay flat; lift is a response to the pointer, never a resting state.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Image, Round Action Rule",
+        "body": "Pictures are square-cornered; things you press are pills. Do not round a photograph and do not square a button.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do keep petrol (`accent`) for links, the single filled button, the Contact pill, focus and the role line only.",
+      "Do set every name, title, organization and the email address in Source Serif 4 at weight 500, and every label, date, outlet, author list and control in Hanken Grotesk.",
+      "Do file any new list of records as a Dossier Entry: 1px ink rule on top, 1px Hairline (`rule`) between rows, 11.5rem tabular meta column.",
+      "Do keep photographs square-cornered with a Shaded Paper (`paper-deep`) placeholder fill and an explicit aspect ratio (4:5 portrait, 3:2 features).",
+      "Do use the house ease `cubic-bezier(0.16, 1, 0.3, 1)` for every transition and wrap any entrance animation in `prefers-reduced-motion: no-preference`.",
+      "Do self-host fonts and images; the page should depend on nothing a vendor can switch off."
+    ],
+    "donts": [
+      "Don't put list entries, bio text or sections inside bordered or shadowed cards; the four feature photographs are the only tiles.",
+      "Don't introduce a second accent hue, gradients, or saturated wellness colors.",
+      "Don't use stock lab imagery, molecule graphics, or metric tiles.",
+      "Don't use uppercase transforms, letterspaced caps, or condensed display type for labels or headings.",
+      "Don't add small labels or eyebrows above section titles; the serif headline stands alone.",
+      "Don't round photographs or square off the pill actions.",
+      "Don't add resting shadows to anything other than the primary button.",
+      "Don't use ink as a ground anywhere above the contact band."
+    ]
+  }
+}
